@@ -1,0 +1,9 @@
+{
+  "name": "prity-gtm-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Five open-source sales workflow experiments, led by LinkedIn Reply Desk",
+  "license": "MIT",
+  "scripts": {"test": "node --test tests/*.test.cjs", "demo": "node src/server.cjs", "evaluate": "node tests/evaluate.cjs"},
+  "engines": {"node": ">=20"}
+}

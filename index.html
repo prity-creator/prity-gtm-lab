@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Prity's open-source sales and marketing workflow lab. Five local-first experiments."><title>GTM Lab · LinkedIn Reply Desk</title><style>:root{--ink:#1d302d;--green:#245d4d;--lime:#d6f18c;--muted:#6c7b74;--line:#dfe6df;--paper:#f5f7f2;--white:#fff;--amber:#976227}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,input,textarea{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #839d37;outline-offset:3px}aside{position:fixed;width:250px;inset:0 auto 0 0;background:#fff;border-right:1px solid var(--line);padding:32px 20px;display:flex;flex-direction:column}.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);font-size:25px;font-weight:750;letter-spacing:-1px}.logo{background:var(--green);color:var(--lime);border-radius:12px;width:43px;height:43px;text-align:center;font-size:31px}.eyebrow{font-size:10px;letter-spacing:2px;font-weight:750;color:var(--green)}.side-label{margin:42px 10px 17px;color:#849187;font-size:9px}nav{display:grid;gap:8px}.nav{display:flex;align-items:center;text-align:left;gap:10px;padding:12px 10px;background:none;border:0;border-radius:8px;color:var(--muted);font-size:12px}.nav span{font-size:10px;color:#94a196}.nav b{font-size:8px;margin-left:auto}.nav.active{background:#eaf0e3;color:var(--green);font-weight:700}.side-bottom{margin-top:auto;font-size:10px;color:var(--muted)}.dot{display:inline-block;width:6px;height:6px;background:#45996c;border-radius:50%;margin-right:5px}.author{border-top:1px solid var(--line);margin-top:24px;padding-top:20px;display:flex;gap:12px;font-weight:650;color:var(--green)}.author span{font-size:12px}.author small{display:block;font-weight:400;font-size:10px;color:var(--muted)}main{margin-left:250px;padding:0 40px;max-width:1700px}header{height:86px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;font-size:9px;letter-spacing:1px;color:var(--muted)}header strong{color:var(--ink)}.pill{background:#eaf0e8;border:1px solid #dbe5d5;border-radius:20px;padding:5px 9px;font-size:9px;font-weight:500;letter-spacing:0;white-space:nowrap}.view{padding-top:36px}.intro{display:flex;justify-content:space-between;align-items:center;gap:20px}h1{font-size:clamp(30px,3.2vw,47px);line-height:1.12;letter-spacing:-1.8px;margin:14px 0 15px;font-weight:600}h1 em{font-family:Georgia,serif;font-weight:400;color:var(--green)}.intro p,.lead{color:var(--muted);font-size:13px;max-width:640px}.stamp{border:1px solid #b9c9aa;border-radius:50%;min-width:112px;height:112px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:10px;line-height:1.4;letter-spacing:2px;transform:rotate(9deg);background:#eef3e4}.stamp strong{font-size:14px}.metrics{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:12px;margin:26px 0;background:#fff}.metrics div{padding:16px 20px;border-right:1px solid var(--line)}.metrics div:last-child{border:0}.metrics span{display:block;color:var(--muted);font-size:9px;letter-spacing:1px}.metrics strong{font-size:12px;font-weight:550}.desk{display:grid;grid-template-columns:300px 1fr;gap:20px}.card{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.card-title{padding:20px;display:flex;justify-content:space-between;align-items:center;gap:8px;border-bottom:1px solid var(--line)}h2{font-size:14px;margin:0;font-weight:650}.sample{width:100%;border:0;background:#fff;padding:16px 20px;text-align:left;border-bottom:1px solid #edf0e9;display:flex;gap:12px}.sample.selected{background:#f0f5e8;box-shadow:inset 3px 0 var(--green)}.avatar{display:flex;justify-content:center;align-items:center;flex:none;width:31px;height:31px;border-radius:10px;background:#e7ebdf;color:var(--green);font-size:10px;font-weight:600}.sample-body{min-width:0}.sample strong{display:block;font-size:11px}.sample small{display:block;font-size:9px;color:var(--muted);margin:2px 0 5px}.snippet{display:block;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;font-size:11px;color:#63736a}.micro{font-size:10px;color:var(--muted)}.inbox>.micro{padding:4px 20px}.workbench{padding:0 22px 18px}.workbench .card-title{margin:0 -22px 18px;padding:18px 22px}.muted{color:var(--muted);font-size:10px}label{display:block;font-size:11px;font-weight:600;margin:13px 0 7px}input,textarea{width:100%;border:1px solid #d9e1d6;border-radius:7px;padding:11px;color:var(--ink);background:#fcfdfb;font-size:12px}textarea{resize:vertical;line-height:1.7}input[type=checkbox]{width:14px;margin:0}button{transition:background .15s}.primary,.secondary{border:0;border-radius:7px;padding:11px 15px;font-size:11px;font-weight:600}.primary{background:var(--green);color:white}.primary:hover{background:#174434}.secondary{background:#eaf0e3;color:var(--green)}button:disabled{cursor:not-allowed;opacity:.45}.row{display:flex;align-items:center;gap:12px;margin-top:13px;flex-wrap:wrap}.text-button{font-size:10px;background:none;border:0;color:var(--green)}.result{margin-top:19px;background:#f3f7ec;border:1px solid #dce6cf;border-radius:9px;padding:15px}.result.warning{background:#fff7e9;border-color:#ead9b8}.result h3{margin:0 0 7px;font-size:15px}.result p{font-size:11px;margin:6px 0}.evidence{font-family:ui-monospace,monospace;font-size:10px;color:var(--green)}.checkbox{display:flex;align-items:center;gap:9px;font-size:10px;color:var(--muted);font-weight:400}.note{display:flex;gap:27px;padding:22px 0;font-size:11px}.note strong{white-space:nowrap;color:var(--green)}.note p{margin:0;max-width:800px;color:var(--muted)}footer{border-top:1px solid var(--line);display:flex;justify-content:space-between;padding:20px 0;font-size:9px;color:var(--muted);margin-top:24px}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:28px 0 80px}.padded{padding:25px}.padded .primary{margin-top:20px}.output p,.output li{font-size:13px;line-height:1.8}.output textarea{min-height:220px}.output h3{margin-top:0}.audit-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;align-items:center;gap:12px;margin:22px 0}.audit-grid strong,.audit-grid>span{font-size:10px;color:var(--muted)}.audit-grid label{margin:0}.output table{width:100%;border-collapse:collapse;font-size:12px}.output td,.output th{padding:10px 3px;border-bottom:1px solid var(--line);text-align:left}.error{color:#9c382d}.link-output{overflow-wrap:anywhere;padding:18px;background:#f0f5e8;border-radius:8px;font-family:monospace}.status{font-size:11px;color:var(--green)}[hidden]{display:none!important}@media(min-width:1500px){.desk{grid-template-columns:340px 1fr}.sample{padding:20px}}@media(max-width:1100px){aside{width:215px;padding:24px 14px}main{margin-left:215px;padding:0 24px}.desk{grid-template-columns:250px 1fr}.card-title{padding:15px}.pill{font-size:8px}.stamp{display:none}.metrics div{padding:14px 12px}}@media(max-width:800px){aside{position:static;width:auto;padding:18px}.brand{font-size:23px}.side-label,.side-bottom{display:none}nav{display:flex;overflow:auto;margin-top:18px}.nav{white-space:nowrap}.nav span,.nav b{display:none}main{margin:0;padding:0 18px}header{height:60px;font-size:8px}.view{padding-top:25px}.desk,.two-col{grid-template-columns:1fr}.metrics{gap:0}.metrics strong{font-size:10px}.metrics span{font-size:8px}.inbox #samples{display:grid;grid-template-columns:1fr 1fr}.sample{padding:12px}.note{display:block}.note p{margin-top:8px}h1{font-size:35px}.two-col{margin-bottom:32px}footer{gap:15px;font-size:8px}}@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style></head>
+<body>
+<aside><a class="brand" href="#reply"><span class="logo">g.</span> GTM Lab</a><div class="eyebrow side-label">PRITY’S BUILDING ROOM</div><nav aria-label="Projects">
+<button class="nav active" data-view="reply"><span>01</span> LinkedIn Reply Desk <b>HERO</b></button>
+<button class="nav" data-view="audit"><span>02</span> Campaign Pulse</button>
+<button class="nav" data-view="follow"><span>03</span> Call → Follow-up</button>
+<button class="nav" data-view="check"><span>04</span> Outreach Check</button>
+<button class="nav" data-view="utm"><span>05</span> Campaign Link Kit</button>
+</nav><div class="side-bottom"><span class="dot"></span> Local demo · no account needed<p>Built around real sales problems.<br>All sample conversations are fictional.</p><div class="author">PK <span>Prity Kar<small>Marketing → GTM engineering</small></span></div></div></aside>
+<main><header><span>OPEN-SOURCE EXPERIMENTS / <strong id="breadcrumb">REPLY DESK</strong></span><span class="pill">v0.1 · Working prototype</span></header>
+<section id="reply" class="view"><div class="intro"><div><div class="eyebrow">01 / THE HERO PROJECT</div><h1>A reply is a signal.<br><em>Make the next move count.</em></h1><p>Review LinkedIn replies, understand the intent, and prepare a thoughtful next step.</p></div><div class="stamp">HUMAN<br>IN THE<br><strong>LOOP ↗</strong></div></div>
+<div class="metrics"><div><span>WORKFLOW</span><strong>Read → Review → Draft</strong></div><div><span>CLASSIFICATION</span><strong>Transparent rules</strong></div><div><span>YOUR CONTROL</span><strong>Nothing sends automatically</strong></div></div>
+<div class="desk"><section class="card inbox"><div class="card-title"><h2>Try a conversation</h2><span class="pill">Fictional samples</span></div><div id="samples"></div><p class="micro">Select a sample, or paste the latest prospect reply in the editor.</p></section>
+<section class="card workbench"><div class="card-title"><h2>Reply workbench</h2><span id="sample-name" class="muted">Sample</span></div><label for="reply-text">Latest prospect reply</label><textarea id="reply-text" rows="4"></textarea><div class="row"><button id="analyze" class="primary">Review reply ↗</button><span class="micro">Runs on this device. No AI API call.</span></div>
+<div id="reply-result" aria-live="polite"></div><label for="draft">Editable response</label><textarea id="draft" rows="3" placeholder="A draft appears when a rule supports one."></textarea><label class="checkbox"><input type="checkbox" id="approved"> I have checked the context and edited this draft.</label><div class="row"><button id="copy" class="secondary" disabled>Copy reviewed draft</button><button id="download" class="text-button">Export review JSON ↓</button></div><p id="copy-status" class="micro" aria-live="polite"></p></section></div>
+<div class="note"><strong>Why this exists</strong><p>Sales work involves timing, context and knowing when to stop. This prototype shows its evidence, flags uncertainty and leaves the decision with you. Paste only the latest prospect reply; quoted threads and mixed speakers can confuse the rules.</p></div></section>
+<section id="audit" class="view" hidden><div class="eyebrow">02 / CAMPAIGN PULSE</div><h1>Find the stage<br><em>that needs attention.</em></h1><p class="lead">Compare two equal windows of the same cohort. Count changes come first; explanations remain hypotheses.</p><div class="two-col"><form id="audit-form" class="card padded"><h2>Campaign inputs</h2><div class="audit-grid"><span>Funnel stage</span><strong>Earlier</strong><strong>Later</strong><label for="b-sent">Messages sent</label><input id="b-sent" type="number" min="0" value="500" required><input aria-label="Later messages sent" id="a-sent" type="number" min="0" value="320" required><label for="b-replies">Replies</label><input id="b-replies" type="number" min="0" value="60" required><input aria-label="Later replies" id="a-replies" type="number" min="0" value="24" required><label for="b-interested">Interested</label><input id="b-interested" type="number" min="0" value="18" required><input aria-label="Later interested" id="a-interested" type="number" min="0" value="6" required><label for="b-booked">Booked</label><input id="b-booked" type="number" min="0" value="8" required><input aria-label="Later booked" id="a-booked" type="number" min="0" value="2" required></div><button class="primary">Compare campaigns ↗</button></form><div class="card padded output" id="audit-out" aria-live="polite">Your diagnostic will appear here.</div></div></section>
+<section id="follow" class="view" hidden><div class="eyebrow">03 / CALL → FOLLOW-UP</div><h1>Keep the promise<br><em>made on the call.</em></h1><p class="lead">Turn confirmed notes into an editable follow-up. Only use a next step that was actually agreed.</p><div class="two-col"><form id="follow-form" class="card padded"><label for="f-name">First name</label><input id="f-name" value="Alex" required><label for="f-goal">Their stated goal</label><textarea id="f-goal" rows="2" required>improving the quality of booked sales calls</textarea><label for="f-step">Agreed next step</label><textarea id="f-step" rows="2" required>to review the proposed pilot scope together</textarea><label for="f-time">Agreed date / timing (optional)</label><input id="f-time" placeholder="e.g. 22 October, 3 pm IST"><button class="primary">Build follow-up ↗</button></form><div id="follow-out" class="card padded output" aria-live="polite">Your follow-up will appear here.</div></div></section>
+<section id="check" class="view" hidden><div class="eyebrow">04 / OUTREACH CHECK</div><h1>One message.<br><em>One clear next step.</em></h1><p class="lead">Catch unfilled placeholders, unsupported promises and competing asks before you send.</p><div class="two-col"><form id="check-form" class="card padded"><label for="check-text">Outreach draft</label><textarea id="check-text" rows="8" required>Hi [First name], we guarantee 100% results. Can we book a call? Could you also send your current campaign data?</textarea><button class="primary">Check the draft ↗</button></form><div id="check-out" class="card padded output" aria-live="polite">Your writing checks will appear here.</div></div></section>
+<section id="utm" class="view" hidden><div class="eyebrow">05 / CAMPAIGN LINK KIT</div><h1>Give every campaign<br><em>a consistent name.</em></h1><p class="lead">Generate clean UTM links for LinkedIn and email. Existing query parameters and page anchors are preserved.</p><div class="two-col"><form id="utm-form" class="card padded"><label for="u-url">Destination URL</label><input id="u-url" type="url" value="https://example.com/demo" required><label for="u-source">Source</label><input id="u-source" value="linkedin" required><label for="u-medium">Medium</label><input id="u-medium" value="organic_social" required><label for="u-campaign">Campaign</label><input id="u-campaign" value="gtm lab launch" required><label for="u-content">Content variation (optional)</label><input id="u-content" value="hero demo"><button class="primary">Build tagged link ↗</button></form><div id="utm-out" class="card padded output" aria-live="polite">Your tagged link will appear here.</div></div></section>
+<footer><span>PRITY KAR / GTM LAB</span><span>Open source · MIT · Built with AI assistance</span></footer></main>
+<script>/* Shared browser / Node core. No network, model, database or send capability. */
+(function (root) {
+  'use strict';
+  const RULES = [
+    {intent:'unsubscribe', label:'Do not contact', pattern:/\b(unsubscribe|opt[ -]?out|remove me|quit reaching out|stop (?:contacting|messaging|emailing)|do not (?:contact|message|email)|don['’]?t (?:contact|message|email))\b/i, action:'Mark do-not-contact in your source system; do not draft a sales reply.', draft:''},
+    {intent:'not_interested', label:'Not interested', pattern:/\b(not interested|not interesting|aren['’]?t interested|no thanks|no thank you|not a fit|not for us|don['’]?t need|do not need)\b/i, action:'Close the sales follow-up. Respect the decline.', draft:'Thanks for letting me know. I’ll leave it here.'},
+    {intent:'wrong_person', label:'Wrong person', pattern:/\b(wrong person|not (?:my|the right) (?:area|person|department)|speak (?:to|with)|contact my colleague|no longer (?:work|with))\b/i, action:'Check the referral manually; do not assume consent from the referred person.', draft:'Thanks for pointing me in the right direction. I’ll check who handles this.'},
+    {intent:'later', label:'Follow up later', pattern:/\b(next (?:month|quarter|year)|in \d+ (?:weeks?|months?)|reach (?:back )?out (?:in|after)|circle back|not (?:right )?now|after (?:the )?(?:holidays|launch))\b/i, action:'Confirm a follow-up date manually. No reminder has been scheduled.', draft:'Understood. Would it be okay if I checked back closer to that time?'},
+    {intent:'objection', label:'Objection / question', pattern:/\b(no budget|too expensive|cost|pricing|price|already (?:have|use|work)|case stud(?:y|ies)|proof|how (?:does|would)|what (?:does|would))\b/i, action:'Answer the specific question with verified facts before asking for a meeting.', draft:'Happy to clarify. [Add a verified answer to their question here.] Would that address your concern?'},
+    {intent:'interested', label:'Interested', pattern:/\b(sounds (?:good|interesting)|interested|let['’]?s (?:talk|chat|meet)|book (?:a|the) (?:call|meeting)|send (?:me )?(?:some |more )?(?:details|info)|available (?:on|at)|happy to (?:chat|talk))\b/i, action:'Offer a relevant next step. Confirm time zone and availability before booking.', draft:'Happy to share more. Would you prefer a short overview here or a quick conversation?'}
+  ];
+  function required(value, label, max=12000) {
+    if (typeof value !== 'string' || !value.trim()) throw new Error(label + ' is required.');
+    if (value.length > max) throw new Error(label + ' is too long.');
+    return value.trim();
+  }
+  function analyzeReply(text) {
+    text=required(text,'Latest prospect reply');
+    const matches=RULES.map(rule=>({rule,match:text.match(rule.pattern)})).filter(x=>x.match);
+    const chosen=matches[0];
+    const uncertain=/\b(if|unless|not sure|maybe|perhaps)\b/i.test(text);
+    // Declines override positive words; all other multi-intent replies need review.
+    const suppress=chosen && ['unsubscribe','not_interested'].includes(chosen.rule.intent);
+    const negatedPositive=!suppress && /\b(?:not|never|isn['’]?t|aren['’]?t|wasn['’]?t|don['’]?t)\s+(?:(?:really|very)\s+)?(?:available|interested|happy|good|interesting)\b/i.test(text);
+    const review=!chosen || negatedPositive || (!suppress && (matches.length>1 || uncertain));
+    const rule=chosen && !negatedPositive ? chosen.rule : {intent:'review',label:'Needs human review',action:'Read the context and choose the next step manually.',draft:''};
+    return {intent:rule.intent,label:rule.label,action:rule.action,draft:review?'':rule.draft,
+      evidence:matches.map(x=>({intent:x.rule.intent,quote:x.match[0]})),
+      review_required:true,ambiguous:review,do_not_contact:rule.intent==='unsubscribe',
+      sales_followup_allowed:!suppress&&!review,mode:'rules',
+      note:review?'No draft: ambiguous wording or no supported rule.':'Matched phrases are a heuristic, not a confidence score.'};
+  }
+  function campaignAudit(before, after) {
+    function validate(p) {
+      const out={};
+      for (const key of ['sent','replies','interested','booked']) {
+        if (p[key] === '' || p[key] == null || !Number.isInteger(Number(p[key])) || Number(p[key])<0) throw new Error('Use non-negative whole numbers for every campaign field.');
+        out[key]=Number(p[key]);
+      }
+      if(out.replies>out.sent||out.interested>out.replies||out.booked>out.interested) throw new Error('Use a single cohort: sent ≥ replies ≥ interested ≥ booked.');
+      return out;
+    }
+    before=validate(before); after=validate(after);
+    const deltas=Object.fromEntries(Object.keys(before).map(k=>[k,after[k]-before[k]]));
+    const rate=(n,d)=>d===0?null:Math.round(n/d*10000)/100;
+    const rates=p=>({reply_rate:rate(p.replies,p.sent),interest_rate:rate(p.interested,p.replies),booking_rate:rate(p.booked,p.interested)});
+    const b=rates(before),a=rates(after);
+    const findings=[];
+    if(after.sent<before.sent) findings.push('Send volume fell by '+(before.sent-after.sent)+'. Check sender access, daily capacity and campaign pauses.');
+    for (const [key,label] of [['reply_rate','Replies per send'],['interest_rate','Interested replies per reply'],['booking_rate','Bookings per interested reply']]) {
+      if(b[key]!==null&&a[key]!==null&&a[key]<b[key]) findings.push(label+' fell. Inspect this stage; counts alone do not establish the cause.');
+    }
+    if(!findings.length) findings.push('No measured stage declined on these inputs. Inspect cohort age and reply quality before drawing conclusions.');
+    return {before,after,deltas,rates:{before:b,after:a},findings,caveat:'Compare equal observation windows and the same cohort definition. Small samples are unstable; these are diagnostic prompts, not causal claims.'};
+  }
+  function followUp(input) {
+    const name=required(input.name,'First name',120), goal=required(input.goal,'Stated goal',1500);
+    const step=required(input.step,'Agreed next step',1500);
+    const timing=(input.timing||'').trim();
+    return {draft:`Hi ${name},\n\nThanks for the conversation. You mentioned that your priority is ${goal}.\n\nAs discussed, the next step is ${step}${timing ? ' ('+timing+')' : ''}.\n\nHave I captured that correctly?`, checklist:['Check that the goal reflects their words.','Verify the next step was actually agreed.',timing?'Confirm the date and time zone.':'Add a date only if it was agreed.'],mode:'template'};
+  }
+  function messageCheck(text) {
+    text=required(text,'Outreach draft');
+    const words=text.split(/\s+/).length,questions=(text.match(/\?/g)||[]).length;
+    const flags=[];
+    if(words>90)flags.push('Long first message: consider trimming to one useful point.');
+    if(questions>1)flags.push('Multiple asks: choose one next step.');
+    if(/guarantee|guaranteed|100%|risk.free|double your/i.test(text))flags.push('Strong promise: substantiate or remove it.');
+    if(/\[[^\]]+\]|\{[^}]+\}/.test(text))flags.push('Unfilled placeholder: replace it before sending.');
+    if(/just following up|bumping this|touching base/i.test(text))flags.push('Generic follow-up: explain why this is useful to the recipient.');
+    if(!questions)flags.push('No question detected: check that the intended next step is clear.');
+    return {words,questions,flags,verdict:flags.length?'Review before sending':'No listed checks triggered',note:'This checks writing patterns only; it cannot verify claims, personalization, consent or deliverability.'};
+  }
+  function buildUTM(input) {
+    let url;
+    try {url=new URL(required(input.url,'Destination URL',2000));} catch {throw new Error('Enter a full http:// or https:// destination URL.');}
+    if(!['https:','http:'].includes(url.protocol)||url.username||url.password)throw new Error('Use a normal HTTP(S) URL without credentials.');
+    const normalize=s=>required(s,'Source, medium and campaign',160).toLowerCase().replace(/\s+/g,'_');
+    for(const key of ['source','medium','campaign'])url.searchParams.set('utm_'+key,normalize(input[key]));
+    if(input.content && input.content.trim())url.searchParams.set('utm_content',normalize(input.content));
+    else url.searchParams.delete('utm_content');
+    return {url:url.toString(),note:'This creates a tagged link. It does not collect clicks or install analytics.'};
+  }
+  const api={analyzeReply,campaignAudit,followUp,messageCheck,buildUTM};
+  if(typeof module!=='undefined'&&module.exports)module.exports=api; else root.GTMLab=api;
+})(typeof globalThis!=='undefined'?globalThis:this);
+</script><script>'use strict';
+const $=id=>document.getElementById(id);
+const samples=[
+  {name:'Alex Morgan',role:'Founder · Example Analytics',text:'Sounds interesting. Could you send me more details?'},
+  {name:'Sam Taylor',role:'Revenue lead · Example Studio',text:'We are focused on our launch. Can you circle back next quarter?'},
+  {name:'Jordan Lee',role:'Operations · Example Systems',text:'We already have an agency. What does your service cost?'},
+  {name:'Casey Brooks',role:'Marketing · Example Works',text:'Please remove me from your list. Do not contact me again.'},
+  {name:'Riley Chen',role:'People team · Example Labs',text:'I am the wrong person. Please speak to our sales team.'},
+  {name:'Taylor Quinn',role:'Founder · Example Cloud',text:'Maybe. We need to think about it internally.'}
+];
+let current=null;
+function el(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}
+function clear(id){const n=$(id);n.replaceChildren();return n;}
+function list(parent,items){const ul=el('ul');items.forEach(x=>ul.append(el('li',x)));parent.append(ul);}
+function error(id,e){const n=clear(id);n.append(el('p',e.message,'error'));}
+function resetApproval(){$('approved').checked=false;$('copy').disabled=true;$('copy-status').textContent='';}
+function renderReply(){
+  resetApproval();current=null;$('download').disabled=true;$('draft').value='';
+  try {
+    current=GTMLab.analyzeReply($('reply-text').value);
+    const box=el('div',undefined,'result'+(current.ambiguous||current.do_not_contact?' warning':''));
+    box.append(el('h3',current.label),el('p',current.action));
+    box.append(el('p','Evidence: '+(current.evidence.map(x=>'“'+x.quote+'”').join(' · ')||'No supported phrase matched'),'evidence'));
+    box.append(el('p',current.note));clear('reply-result').append(box);$('draft').value=current.draft;
+    $('draft').disabled=current.do_not_contact;$('download').disabled=false;
+  }catch(e){error('reply-result',e);$('draft').disabled=false;}
+}
+samples.forEach((sample,i)=>{
+  const b=el('button',undefined,'sample');b.type='button';b.setAttribute('aria-label','Load '+sample.name+' sample');
+  b.append(el('span',sample.name.split(' ').map(x=>x[0]).join(''),'avatar'));
+  const body=el('span',undefined,'sample-body');body.append(el('strong',sample.name),el('small',sample.role),el('span',sample.text,'snippet'));b.append(body);
+  b.addEventListener('click',()=>{document.querySelectorAll('.sample').forEach(n=>n.classList.remove('selected'));b.classList.add('selected');$('reply-text').value=sample.text;$('sample-name').textContent=sample.name;renderReply();});$('samples').append(b);
+  if(i===0)b.click();
+});
+document.querySelectorAll('.nav').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('.view').forEach(n=>n.hidden=n.id!==b.dataset.view);
+  document.querySelectorAll('.nav').forEach(n=>n.classList.toggle('active',n===b));
+  $('breadcrumb').textContent=b.textContent.replace(/^\d+\s*/,'').replace('HERO','').trim().toUpperCase();
+}));
+$('analyze').addEventListener('click',renderReply);
+$('reply-text').addEventListener('input',()=>{current=null;clear('reply-result');$('draft').value='';$('draft').disabled=false;$('download').disabled=true;resetApproval();});
+$('draft').addEventListener('input',resetApproval);
+$('approved').addEventListener('change',()=>{$('copy').disabled=!$('approved').checked||!$('draft').value.trim()||!current||current.do_not_contact;});
+$('copy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText($('draft').value);$('copy-status').textContent='Copied. Review once more in your messaging app before sending.';}catch{$('draft').select();$('copy-status').textContent='Select and copy the draft manually using your keyboard.';}});
+$('download').addEventListener('click',()=>{
+  if(!current)return;
+  const blob=new Blob([JSON.stringify({...current,draft:$('draft').value,human_reviewed:$('approved').checked},null,2)],{type:'application/json'});
+  const a=el('a');a.href=URL.createObjectURL(blob);a.download='reply-review.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+});
+$('audit-form').addEventListener('submit',e=>{e.preventDefault();try{
+  const read=p=>Object.fromEntries(['sent','replies','interested','booked'].map(k=>[k,$(p+'-'+k).value]));
+  const r=GTMLab.campaignAudit(read('b'),read('a')),n=clear('audit-out');n.append(el('h3','What changed'));
+  const table=el('table'),head=el('tr');['Stage','Earlier','Later','Change'].forEach(t=>head.append(el('th',t)));table.append(head);
+  Object.keys(r.deltas).forEach(k=>{const row=el('tr');[k,r.before[k],r.after[k],(r.deltas[k]>0?'+':'')+r.deltas[k]].forEach(v=>row.append(el('td',v)));table.append(row);});n.append(table);list(n,r.findings);n.append(el('p',r.caveat,'micro'));
+}catch(x){error('audit-out',x);}});
+$('follow-form').addEventListener('submit',e=>{e.preventDefault();try{
+  const r=GTMLab.followUp({name:$('f-name').value,goal:$('f-goal').value,step:$('f-step').value,timing:$('f-time').value});const n=clear('follow-out');n.append(el('h3','Your follow-up'));
+  const ta=el('textarea');ta.value=r.draft;ta.setAttribute('aria-label','Generated follow-up draft');n.append(ta);list(n,r.checklist);
+}catch(x){error('follow-out',x);}});
+$('check-form').addEventListener('submit',e=>{e.preventDefault();try{const r=GTMLab.messageCheck($('check-text').value),n=clear('check-out');n.append(el('h3',r.verdict),el('p',r.words+' words · '+r.questions+' questions'));list(n,r.flags);n.append(el('p',r.note,'micro'));}catch(x){error('check-out',x);}});
+$('utm-form').addEventListener('submit',e=>{e.preventDefault();try{const read=k=>$('u-'+k).value,r=GTMLab.buildUTM({url:read('url'),source:read('source'),medium:read('medium'),campaign:read('campaign'),content:read('content')}),n=clear('utm-out');n.append(el('h3','Tagged link'),el('p',r.url,'link-output'),el('p',r.note,'micro'));}catch(x){error('utm-out',x);}});
+
+document.querySelector('.brand').addEventListener('click',()=>document.querySelector('[data-view="reply"]').click());
+</script></body></html>
