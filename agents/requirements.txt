@@ -1,0 +1,2 @@
+# Optional; Python >=3.10. Resolve and pin your tested environment before a live demo.
+google-adk>=1.0,<3.0
