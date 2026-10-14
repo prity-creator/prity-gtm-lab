@@ -8,6 +8,8 @@ Created by **Prity Kar**, with AI-assisted implementation. This is a new prototy
 
 ## Try it in under a minute
 
+**[Open the live demo](https://prity-creator.github.io/prity-gtm-lab/)** — no account or API key required.
+
 Open **[index.html](index.html)** in your browser after downloading the repository. It is a self-contained copy of the entire demo. No account, installation or API key is required. GitHub's file viewer shows source; download it to run it.
 
 For local development, install Node.js 20 or newer, open a terminal in this folder, then run:
